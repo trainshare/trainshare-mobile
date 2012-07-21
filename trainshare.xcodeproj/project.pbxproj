@@ -38,10 +38,15 @@
 		E46A67CB1576A3B400484336 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46A67CA1576A3B400484336 /* MainViewController.m */; };
 		E46A67CD1576A3B400484336 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46A67CC1576A3B400484336 /* MainViewController.xib */; };
 		E46A67D11576A3B400484336 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = E46A67D01576A3B400484336 /* verify.sh */; };
+		E46A67D81576A40900484336 /* trainshare-ios-icon-default.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A67D71576A40900484336 /* trainshare-ios-icon-default.png */; };
+		E46A67DA1576A40D00484336 /* trainshare-ios-icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A67D91576A40D00484336 /* trainshare-ios-icon-retina.png */; };
+		E46A67DC1576A41600484336 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A67DB1576A41600484336 /* Default.png */; };
+		E46A67DE1576A41B00484336 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A67DD1576A41B00484336 /* Default@2x.png */; };
+		E46A67E01576A46A00484336 /* www in Resources */ = {isa = PBXBuildFile; fileRef = E46A67DF1576A46A00484336 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E46A677B1576A3B400484336 /* trainshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trainshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46A677B1576A3B400484336 /* Trainshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46A677F1576A3B400484336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E46A67811576A3B400484336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E46A67831576A3B400484336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,10 +60,10 @@
 		E46A67931576A3B400484336 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E46A67951576A3B400484336 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E46A67971576A3B400484336 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		E46A679B1576A3B400484336 /* trainshare-Info.plist */ = {isa = PBXFileReference; path = "trainshare-Info.plist"; sourceTree = "<group>"; };
+		E46A679B1576A3B400484336 /* trainshare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trainshare-Info.plist"; sourceTree = "<group>"; };
 		E46A679D1576A3B400484336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E46A679F1576A3B400484336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E46A67A11576A3B400484336 /* trainshare-Prefix.pch */ = {isa = PBXFileReference; path = "trainshare-Prefix.pch"; sourceTree = "<group>"; };
+		E46A67A11576A3B400484336 /* trainshare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trainshare-Prefix.pch"; sourceTree = "<group>"; };
 		E46A67A21576A3B400484336 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		E46A67A71576A3B400484336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E46A67AB1576A3B400484336 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +76,18 @@
 		E46A67BF1576A3B400484336 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		E46A67C11576A3B400484336 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		E46A67C31576A3B400484336 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		E46A67C61576A3B400484336 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		E46A67C61576A3B400484336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		E46A67C71576A3B400484336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		E46A67C91576A3B400484336 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		E46A67C91576A3B400484336 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		E46A67CA1576A3B400484336 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		E46A67CC1576A3B400484336 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		E46A67CF1576A3B400484336 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		E46A67CF1576A3B400484336 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		E46A67D01576A3B400484336 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		E46A67D71576A40900484336 /* trainshare-ios-icon-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trainshare-ios-icon-default.png"; sourceTree = "<group>"; };
+		E46A67D91576A40D00484336 /* trainshare-ios-icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trainshare-ios-icon-retina.png"; sourceTree = "<group>"; };
+		E46A67DB1576A41600484336 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E46A67DD1576A41B00484336 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E46A67DF1576A46A00484336 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,11 @@
 		E46A676D1576A3B400484336 = {
 			isa = PBXGroup;
 			children = (
+				E46A67DF1576A46A00484336 /* www */,
+				E46A67DD1576A41B00484336 /* Default@2x.png */,
+				E46A67DB1576A41600484336 /* Default.png */,
+				E46A67D91576A40D00484336 /* trainshare-ios-icon-retina.png */,
+				E46A67D71576A40900484336 /* trainshare-ios-icon-default.png */,
 				E46A67991576A3B400484336 /* trainshare */,
 				E46A677E1576A3B400484336 /* Frameworks */,
 				E46A677C1576A3B400484336 /* Products */,
@@ -124,7 +139,7 @@
 		E46A677C1576A3B400484336 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E46A677B1576A3B400484336 /* trainshare.app */,
+				E46A677B1576A3B400484336 /* Trainshare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,9 +277,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E46A677A1576A3B400484336 /* trainshare */ = {
+		E46A677A1576A3B400484336 /* Trainshare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E46A67D41576A3B500484336 /* Build configuration list for PBXNativeTarget "trainshare" */;
+			buildConfigurationList = E46A67D41576A3B500484336 /* Build configuration list for PBXNativeTarget "Trainshare" */;
 			buildPhases = (
 				E46A67741576A3B400484336 /* Sources */,
 				E46A67751576A3B400484336 /* Frameworks */,
@@ -277,9 +292,9 @@
 			);
 			dependencies = (
 			);
-			name = trainshare;
+			name = Trainshare;
 			productName = trainshare;
-			productReference = E46A677B1576A3B400484336 /* trainshare.app */;
+			productReference = E46A677B1576A3B400484336 /* Trainshare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +320,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E46A677A1576A3B400484336 /* trainshare */,
+				E46A677A1576A3B400484336 /* Trainshare */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +344,11 @@
 				E46A67C41576A3B400484336 /* Cordova.plist in Resources */,
 				E46A67CD1576A3B400484336 /* MainViewController.xib in Resources */,
 				E46A67D11576A3B400484336 /* verify.sh in Resources */,
+				E46A67D81576A40900484336 /* trainshare-ios-icon-default.png in Resources */,
+				E46A67DA1576A40D00484336 /* trainshare-ios-icon-retina.png in Resources */,
+				E46A67DC1576A41600484336 /* Default.png in Resources */,
+				E46A67DE1576A41B00484336 /* Default@2x.png in Resources */,
+				E46A67E01576A46A00484336 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +496,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "trainshare/trainshare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -487,7 +508,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -506,6 +527,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "trainshare/trainshare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -517,7 +539,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -535,13 +557,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E46A67D41576A3B500484336 /* Build configuration list for PBXNativeTarget "trainshare" */ = {
+		E46A67D41576A3B500484336 /* Build configuration list for PBXNativeTarget "Trainshare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E46A67D51576A3B500484336 /* Debug */,
 				E46A67D61576A3B500484336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
